@@ -1,20 +1,17 @@
-import javax.swing.JOptionPane;
 
-public class Fibonacci {
+public class Main {
 
     public static void main(String[] args) {
-        int a=0;
-        int b=1;
-        int n=Integer.parseInt(JOptionPane.showInputDialog("Input: "));
- 
-        System.out.println("Input: " + n);
- 
-        for(int i=0; i < n; i++){
-            System.out.print("" + a);
-            a=a+b;
-            b=a-b;
-        }
-        System.out.println("");
+     
+    int fibonacciDeret =10;
+    int a=0;
+    int b=1;
+    for ( int i=1; i<= fibonacciDeret; i++)
+    {
+        System.out.println("Fibonacci :" +a);
+        a=a+b;
+        b=a-b;
     }
- 
+    }
+
 }
