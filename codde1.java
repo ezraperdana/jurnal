@@ -9,12 +9,16 @@ public class Fibonacci {
  
         System.out.println("Input: " + n);
  
-        for(int i=0; i < n; i++){
-            System.out.print("" + a);
-            a=a+b;
-            b=a-b;
-        }
-        System.out.println("");
-    }
+        for(int i=(n-1);i>=1;i--){
+for(int k=i;k<=(n-1);k++){
+System.out.print(" ");
+}
+for(int j=l;j>=1;j--){
+System.out.print("+");
+}
+l-=2;
+ 
+System.out.println("");
+}
  
 }
